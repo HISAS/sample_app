@@ -202,16 +202,16 @@ ja:
 
   wrong_password_or_email: メールアドレスまたはパスワードが正しくありません
   account_activated: アカウントが有効化されました
-  account_not_activated: アカウントが有効化されていません
+  account_not_activated: アカウントが有効化されていません。
   invalid_activation_link: これは無効なアクティベーションリンクです
-  please_log_in: ログインしてください
+  please_log_in: ログインしてください。
   micropost_created: 投稿しました
   micropost_deleted: 投稿を削除しました
   email_sent_with_password_reset_instructions: パスワード再設定のメールを送信しました
   email_address_not_found: このメールアドレスは存在しません
-  password_has_been_reset: パスワードが変更されました
-  password_reset_has_expired: パスワード再設定の期限が切れました
-  check_your_email_for_the_activation_link: メールに送信しましたアカウント有効化のリンクを確認してください
-  please_check_your_email_to_activate_your_account: アカウント有効化のメールを確認してください
+  password_has_been_reset: パスワードが変更されました。
+  password_reset_has_expired: パスワード再設定の期限が切れました。
+  check_your_email_for_the_activation_link: メールに送信しましたアカウント有効化のリンクを確認してください。
+  please_check_your_email_to_activate_your_account: アカウント有効化のメールを確認してください。
   profile_updated: プロフィールが更新されました
   user_deleted: ユーザーを削除しました
