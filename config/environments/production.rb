@@ -71,6 +71,19 @@ Rails.application.configure do
     :enable_starttls_auto => true
   }
 
+  Rails.application.config.middleware.use ExceptionNotification::Rack,
+  :email => {
+    :email_prefix => "[sample_app] ",
+    :sender_address => %{"notifier" <notifier@example.com>},
+    :exception_recipients => %w{hkame6926@gmail.com},
+    :delivery_method => :smtp,
+    :smtp_settings => {
+      :user_name => ENV['SENDGRID_USERNAME'],
+      :password => ENV['SENDGRID_PASSWORD'],
+    }
+  }
+
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
