@@ -20,6 +20,8 @@ gem 'kaminari'
 gem 'exception_notification'
 gem 'devise'
 gem 'omniauth-twitter'
+gem "paperclip", "~> 5.0.0"
+gem 'aws-sdk', '>= 2.3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
