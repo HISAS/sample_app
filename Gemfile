@@ -20,7 +20,6 @@ gem 'kaminari'
 gem 'exception_notification'
 gem 'devise'
 gem 'omniauth-twitter'
-gem 'settingslogic'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'

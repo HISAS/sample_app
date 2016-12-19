@@ -18,7 +18,7 @@ ExceptionNotification.configure do |config|
   # Email notifier sends notifications by email.
   config.add_notifier :email, {
     :email_prefix         => "[sample_app] ",
-    :sender_address       => %{"Notifier" <hkame6926@gmail.com>},
+    :sender_address       => %{"Notifier" <notifier@railstutorial.jp>},
     :exception_recipients => %w{hkame6926@gmail.com}
   }
 
