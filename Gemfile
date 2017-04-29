@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.0.0.1'
+gem 'rails'
 gem 'bcrypt',         '3.1.11'
 gem 'faker',          '1.6.6'
 gem 'carrierwave',             '0.11.2'
@@ -21,7 +21,7 @@ gem 'exception_notification'
 gem 'devise'
 gem 'omniauth-twitter'
 gem "paperclip", "~> 5.0.0"
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
